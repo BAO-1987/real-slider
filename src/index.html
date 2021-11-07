@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#111111">
-  <title></title>
+  <title>Gremi Invest | Главная страница </title>
   <link rel="stylesheet" href="css/vendor.min.css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
@@ -18,13 +18,21 @@
     @include('html/_header.html')
 
     <main class="main">
-     
+
+      <h1 class="sr-only">Gremi Invest - недвижимость в Польше</h1>
+
+      <div class="wrapper">
+
+        @include('html/home/_hero.html')
+
+      </div>
+
     </main>
 
     @include('html/_footer.html')
 
   </div>
-  <script src="js/main.js"></script> 
+  <script src="js/main.js"></script>
 </body>
 
 </html>

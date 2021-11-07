@@ -1,0 +1,19 @@
+.hero {
+  &__item {
+    height: 530px;
+  }
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 3px;
+  background: var(--color-peach);
+  opacity: 0.2;
+}
+
+.swiper-scrollbar-drag {
+  background: linear-gradient(270deg, #f9af31 0%, rgba(249, 175, 49, 0) 100%);
+  width: 200px;
+}
